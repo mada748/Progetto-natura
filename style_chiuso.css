@@ -1,0 +1,114 @@
+body {
+  background-image: url(chiuso_sfondo.jpeg);
+}
+
+a {
+  color: #007bff; /* Colore link */
+  text-decoration: none;
+}
+
+.container {
+  background-color: white; 
+  padding: 20px; 
+  border-radius: 8px; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+.button_round {
+  background-color: lightslategrey;
+  border-radius: 50px;
+  padding: 12px 28px; 
+}
+
+.input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid lightcyan;
+    border-radius: 6px;
+    font-size: 16px;
+    color: black;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box; 
+}
+
+
+
+
+.container_Gray {
+  background-color: gray; 
+  padding: 20px; 
+  border-radius: 8px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+
+.container_LightGray {
+  background-color: lightgray; 
+  padding: 20px; 
+  border-radius: 8px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+.simple_label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: black;
+    font-size: 14px;
+}
+
+.simple_button {
+  color: white; 
+  background-color: #007bff; 
+  border: none; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500; 
+  cursor: pointer; 
+  padding: 12px 24px; 
+  transition: background-color 0.3s ease; 
+}
+
+.button.rectangle {
+  border-radius: 6px; 
+}
+
+.blue-rounded-button {
+  background-color: darkblue; /* Blue background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Adjust padding to change button size */
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 20px; /* Adjust to change the roundness of the corners */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  font-family: Arial, sans-serif; /* Changes the font of the text */
+  font-size: 16px; /* Adjust font size */
+  text-decoration: none; /* Removes the underline for links */
+  display: inline-block; /* Makes sure the button behaves correctly with padding */
+}
+
+.form-label {
+  background-color: darkblue
+  display: block; /* Rende l'etichetta un blocco per andare a capo */
+  font-family: Arial, sans-serif; /* Un font pulito e leggibile */
+  font-size: 14px; /* Dimensione del testo */
+  font-weight: 600; /* Leggermente in grassetto per dare risalto */
+  color: white; /* Colore del testo scuro ma non nero assoluto */
+  margin-bottom: 8px; /* Spazio sotto l'etichetta prima del campo di input */
+  text-transform: capitalize; /* Rende la prima lettera maiuscola */
+}
+
+
+
+
