@@ -21,6 +21,10 @@ a {
   }
   container {
     width: 50%
+  }
+  container_LightGray {
+    width 70%
+  }
 }
 
 .container {
