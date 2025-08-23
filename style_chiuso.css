@@ -7,6 +7,21 @@ a {
   text-decoration: none;
 }
 
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+   }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px; 
+  }
+  container {
+    width: 50%
+  }
+
 .container {
   background-color: white; 
   padding: 20px; 
