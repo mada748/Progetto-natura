@@ -16,10 +16,13 @@
         // Check if the language is Italian (e.g., 'it', 'it-IT').
         if (userLanguage.startsWith('it')) {
             // Redirect to the Italian page.
-            window.location.href = 'https://progetto-natura.vercel.app/it/index.html'; 
+            window.location.href = 'https://progetto-natura.vercel.app/it/index.html';
+            console.log("Redirecting user to italian page...")
         } else {
             // Redirect to the non-Italian page.
-            window.location.href = '';
+            window.location.href = 'https://progetto-natura.vercel.app/english.html';
+            console.log("Redirecting User to English Unstable version...")
+            
         }
     </script>
 
