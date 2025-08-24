@@ -1,6 +1,5 @@
 body {
   background-image: url(sfondo.jpeg);
-  font-size: 16px;
 }
 
 a {
@@ -8,28 +7,7 @@ a {
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
-  .container {
-    display: flex;
-    justify-content: space-between;
-   }
-}
-
-@media (min-width: 1200px) {
-  body {
-    font-size: 18px; 
-  }
-  container {
-    width: 50%
-  }
-  container_LightGray {
-    width 70%
-  }
-}
-
 .container {
-  width: 70%;
-  margin: 0 auto;
   background-color: white; 
   padding: 20px; 
   border-radius: 8px; 
