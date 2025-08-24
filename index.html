@@ -1,18 +1,28 @@
-<!DOCTYPE>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Redirect system 1.0</title>
 </head>
 <body>
-<div class="container">
-<h1>Per colpa di problemi recenti con il sito questa pagina ti rendirezzera al sito correto</h1>
-<h2>Grazie Per la pazienza</h2>
-<script>
-        setTimeout(function() {
-            
-            window.location.href = 'https://progetto-natura.vercel.app/it/index.html'; 
-        }, 500); 
-</script>
+    <h1>Controlling your location</h1>
+  <h1>Controllando la tua posizione</h1>
 
+    <script>
+        // Get the user's browser language.
+        const userLanguage = navigator.language || navigator.userLanguage;
+
+        // Check if the language is Italian (e.g., 'it', 'it-IT').
+        if (userLanguage.startsWith('it')) {
+            // Redirect to the Italian page.
+            window.location.href = 'https://progetto-natura.vercel.app/it/index.html'; 
+        } else {
+            // Redirect to the non-Italian page.
+            window.location.href = '';
+        }
+    </script>
+
+</body>
+</html>
 
