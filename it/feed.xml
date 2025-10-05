@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Diaro della natura</title>
+    <link>https://progetto-natura.vercel.app</link>
+    <description>Diario della natura è un blog che parla del exosistema e va in-depth nei problemi del nostro ecosistema e di come risolvero</description>
+    
+    <language>en-us</language>
+    <pubDate> 18:30:02 GMT</pubDate>
+    <lastBuildDate>10/05/25 10:46 GMT</lastBuildDate>
+    <copyright>UPSIDEDOWNPRODUCTION LLC</copyright>
+
+    <item>
+      <title>La Natura va preservata!</title>
+      <link>https://progetto-natura.vercel.app/it/Blog1.html</link>
+      <guid isPermaLink="true">https://progetto-natura.vercel.app/it/Blog1.html</guid>
+      <pubDate>10/05/25 10:46 GMT</pubDate>
+      <description>leggi il post troppo lungo</description>
+    </item>
+    
+    </channel>
+</rss>
