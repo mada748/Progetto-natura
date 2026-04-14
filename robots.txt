@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://progetto-natura.vercel.app/sitemap.xml
