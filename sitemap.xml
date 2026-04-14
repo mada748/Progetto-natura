@@ -4,34 +4,31 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>https://progetto-natura.vercel.app/it/Find_Blog.html</loc>
-  <lastmod>2025-08-24T06:19:49+00:00</lastmod>
+  <loc>https://progetto-natura.vercel.app/it/index.html</loc>
+  <lastmod>2026-04-14</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://progetto-natura.vercel.app/it/index.html</loc>
-  <lastmod>2025-08-24T06:19:50+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://progetto-natura.vercel.app/it/Find_Blog.html</loc>
+  <lastmod>2026-04-14</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://progetto-natura.vercel.app/it/Blog1.html</loc>
-  <lastmod>2025-08-24T06:19:50+00:00</lastmod>
+  <lastmod>2026-04-14</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://progetto-natura.vercel.app/it/crediti.html</loc>
-  <lastmod>2025-08-24T06:19:50+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://progetto-natura.vercel.app/it/contatti.html</loc>
+  <lastmod>2026-04-14</lastmod>
+  <priority>0.60</priority>
 </url>
 <url>
-  <loc>https://progetto-natura.vercel.app/it/contatti.html</loc>
-  <lastmod>2025-08-24T06:19:50+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://progetto-natura.vercel.app/it/crediti.html</loc>
+  <lastmod>2026-04-14</lastmod>
+  <priority>0.50</priority>
 </url>
-
 
 </urlset>
