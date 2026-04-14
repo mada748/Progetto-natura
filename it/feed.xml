@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>Diaro della natura</title>
-    <link>https://progetto-natura.vercel.app</link>
-    <description>Diario della natura è un blog che parla del exosistema e va in-depth nei problemi del nostro ecosistema e di come risolvero</description>
-    
-    <language>en-us</language>
-    <pubDate> 18:30:02 GMT</pubDate>
-    <lastBuildDate>10/05/25 10:46 GMT</lastBuildDate>
-    <copyright>UPSIDEDOWNPRODUCTION LLC</copyright>
+    <title>Diario della natura</title>
+    <link>https://progetto-natura.vercel.app/it/index.html</link>
+    <description>Diario della natura è un blog che parla dell'ecosistema e va in-depth nei problemi del nostro ambiente e di come risolverli.</description>
+    <language>it</language>
+    <pubDate>Mon, 14 Apr 2026 10:00:00 GMT</pubDate>
+    <lastBuildDate>Mon, 14 Apr 2026 10:00:00 GMT</lastBuildDate>
+    <copyright>UpsidedownProduction LLC</copyright>
 
     <item>
       <title>La Natura va preservata!</title>
       <link>https://progetto-natura.vercel.app/it/Blog1.html</link>
       <guid isPermaLink="true">https://progetto-natura.vercel.app/it/Blog1.html</guid>
-      <pubDate>10/05/25 10:46 GMT</pubDate>
-      <description>leggi il post troppo lungo</description>
+      <pubDate>Sun, 05 Oct 2025 10:46:00 GMT</pubDate>
+      <description>L'importanza vitale di preservare la natura: ecosistemi, biodiversità, risorse essenziali e cosa possiamo fare ogni giorno per proteggere il nostro pianeta.</description>
     </item>
-    
-    </channel>
+
+  </channel>
 </rss>
