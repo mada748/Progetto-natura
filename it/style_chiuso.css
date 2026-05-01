@@ -1,113 +1,112 @@
+/* Modern CSS Reset and Base Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Muted color palette for error/coming soon pages */
+  --color-primary: #3d5a6d;
+  --color-primary-light: #5a7a8d;
+  --color-accent: #8fb8c8;
+  --color-background: #f5f7f9;
+  --color-surface: #ffffff;
+  --color-surface-muted: #e8ecef;
+  --color-text: #1a2e3a;
+  --color-text-muted: #4a5a6a;
+  --color-border: #d4dce4;
+  
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  
+  /* Border radius */
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  
+  /* Shadows */
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-image: url(chiuso_sfondo.jpeg);
-  font-size: 16px;
-}
-
-a {
-  color: #007bff; /* Colore link */
-  text-decoration: none;
-}
-
-
-
-.container {
-  background-color: white; 
-  padding: 20px; 
-  border-radius: 8px; 
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  min-height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: center; 
-  gap: 20px; 
-  flex-wrap: wrap; 
+  padding: var(--space-md);
 }
 
-.button_round {
-  background-color: lightslategrey;
-  border-radius: 50px;
-  padding: 12px 28px; 
+/* Typography */
+h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--color-primary);
+  margin-bottom: var(--space-md);
+  text-wrap: balance;
 }
 
-.input {
-    width: 100%;
-    padding: 12px 15px;
-    border: 1px solid lightcyan;
-    border-radius: 6px;
-    font-size: 16px;
-    color: black;
-    transition: border-color 0.3s, box-shadow 0.3s;
-    box-sizing: border-box; 
+h2 {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-sm);
+  text-wrap: pretty;
 }
 
-
-
-
-.container_Gray {
-  background-color: gray; 
-  padding: 20px; 
-  border-radius: 8px; 
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  gap: 20px; 
-  flex-wrap: wrap; 
+h4 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  margin-top: var(--space-xl);
 }
 
-
-.container_LightGray {
-  background-color: lightgray; 
-  padding: 20px; 
-  border-radius: 8px; 
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  gap: 20px; 
-  flex-wrap: wrap; 
+/* Links */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 150ms ease;
 }
 
-.simple_label {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 8px;
-    color: black;
-    font-size: 14px;
+a:hover {
+  color: var(--color-primary-light);
 }
 
-.simple_button {
-  color: white; 
-  background-color: #007bff; 
-  border: none; 
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 500; 
-  cursor: pointer; 
-  padding: 12px 24px; 
-  transition: background-color 0.3s ease; 
+/* Container */
+.container {
+  background-color: var(--color-surface);
+  padding: var(--space-2xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
 }
 
-.button.rectangle {
-  border-radius: 6px; 
-}
-
-.blue-rounded-button {
-  background-color: darkblue; /* Blue background color */
-  color: white; /* White text color */
-  padding: 10px 20px; /* Adjust padding to change button size */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 20px; /* Adjust to change the roundness of the corners */
-  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
-  font-family: Arial, sans-serif; /* Changes the font of the text */
-  font-size: 16px; /* Adjust font size */
-  text-decoration: none; /* Removes the underline for links */
-  display: inline-block; /* Makes sure the button behaves correctly with padding */
-}
-
-.form-label {
-  background-color: darkblue
-  display: block; /* Rende l'etichetta un blocco per andare a capo */
-  font-family: Arial, sans-serif; /* Un font pulito e leggibile */
-  font-size: 14px; /* Dimensione del testo */
-  font-weight: 600; /* Leggermente in grassetto per dare risalto */
-  color: white; /* Colore del testo scuro ma non nero assoluto */
-  margin-bottom: 8px; /* Spazio sotto l'etichetta prima del campo di input */
-  text-transform: capitalize; /* Rende la prima lettera maiuscola */
+/* Utility Classes */
+.text-center {
+  text-align: center;
 }
