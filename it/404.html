@@ -1,33 +1,40 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="it">
 <head>
-  <link href="style_chiuso.css" rel="stylesheet">
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>Errore 404</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Errore 404 — Diario della Natura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
-  <!-- Google tag (gtag.js) -->
+
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJZ1PN1HJ7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-DJZ1PN1HJ7');
 </script>
+
 <body>
-  <div class="container">
-    <a href="index.html">Torna al homepage</a>
-  </div>
-  <br>
-  <div class="container">
-    <h1>Oh no! il sito che stai cercando non esiste!</h1>
-    <h2>Se hai scritto il sito a mano per favore ricontrolla l'indirizzo che hai scritto</h2>
-    <h2>Se invece sei stao reindirizzato qui allora vould dire che la pagina che stai cercando non è disponibile</h2>
-    <br>
-    <br>
-    <br>
-    <h1>UpsidedownHosting</h1>
+  <div class="page-wrapper">
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Navigazione principale">
+      <a href="index.html">Torna al homepage</a>
+    </nav>
+
+    <!-- Error Section -->
+    <main>
+      <section class="container error-page">
+        <h1>Oh no! il sito che stai cercando non esiste!</h1>
+        <h2>Se hai scritto il sito a mano per favore ricontrolla l'indirizzo che hai scritto</h2>
+        <h2>Se invece sei stao reindirizzato qui allora vould dire che la pagina che stai cercando non è disponibile</h2>
+        <h1 class="mt-lg">UpsidedownHosting</h1>
+      </section>
+    </main>
   </div>
 </body>
 </html>

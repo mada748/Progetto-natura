@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language Redirect system 1.0</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Redirect system 1.0</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Controlling your location</h1>
-  <h1>Controllando la tua posizione</h1>
+  <div class="page-wrapper">
+    <div class="container">
+      <h1>Controlling your location</h1>
+      <h1>Controllando la tua posizione</h1>
+    </div>
+  </div>
 
-    <script>
-        // Get the user's browser language.
-        const userLanguage = navigator.language || navigator.userLanguage;
+  <script>
+    // Get the user's browser language.
+    const userLanguage = navigator.language || navigator.userLanguage;
 
-        // Check if the language is Italian (e.g., 'it', 'it-IT').
-        if (userLanguage.startsWith('it')) {
-            // Redirect to the Italian page.
-            window.location.href = 'https://progetto-natura.vercel.app/it/index.html';
-            console.log("Redirecting user to italian page...");
-        } else {
-            // Redirect to the non-Italian page.
-            window.location.href = 'https://progetto-natura.vercel.app/english.html';
-            console.log("Redirecting User to English Unstable version...");
-            
-        }
-    </script>
-
+    // Check if the language is Italian (e.g., 'it', 'it-IT').
+    if (userLanguage.startsWith('it')) {
+      // Redirect to the Italian page.
+      window.location.href = 'https://progetto-natura.vercel.app/it/index.html';
+      console.log("Redirecting user to italian page...");
+    } else {
+      // Redirect to the non-Italian page.
+      window.location.href = 'https://progetto-natura.vercel.app/english.html';
+      console.log("Redirecting User to English Unstable version...");
+    }
+  </script>
 </body>
 </html>
-

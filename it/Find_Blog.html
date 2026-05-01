@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="it">
 <head>
   <meta charset="UTF-8">
@@ -13,18 +12,32 @@
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="it_IT" />
   <link rel="canonical" href="https://progetto-natura.vercel.app/it/Find_Blog.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <a href="index.html">Torna alla homepage</a>
-  </div>
-  <br>
-  <div class="container">
-    <h1>I Nostri blog</h1>
-    <br>
-    <img src="blog1.jpg" width="200" alt="La natura va preservata">
-    <a href="Blog1.html">La natura va preservata</a>
+  <div class="page-wrapper">
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Navigazione principale">
+      <a href="index.html">Torna alla homepage</a>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="container text-center">
+      <h1>I Nostri blog</h1>
+    </header>
+
+    <!-- Blog List -->
+    <main>
+      <article class="blog-card">
+        <img src="blog1.jpg" width="200" alt="La natura va preservata">
+        <div>
+          <a href="Blog1.html">La natura va preservata</a>
+        </div>
+      </article>
+    </main>
   </div>
 </body>
 </html>
